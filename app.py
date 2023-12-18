@@ -4,8 +4,6 @@ from flask import Flask, render_template, request, jsonify
 import joblib
 import pandas as pd
 
-fuel = pd.read_excel('./data_set_fuel_cons.xlsx')
-
 app = Flask(__name__)
 
 #load the saved model
